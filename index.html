@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>percentileTrend</title>
+<link rel="stylesheet" href="./lib/css/ca/CA_dashboard.css" />
+<link rel="stylesheet" href="./lib/css/nvd3/nv.d3.css" />
+<script type="text/javascript" src="./lib/js/ca/nvd3Trend.js"></script>
+<script type="text/javascript" src="./lib/js/ca/caHelperFunctions.js"></script>
+<script type="text/javascript" src="./lib/js/jquery/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="./lib/js/spin.js"></script>
+<script type="text/javascript" src="./lib/js/d3/d3.js"></script>
+<script type="text/javascript" src="./lib/js/nvd3/nv.d3.js"></script>
+<script type="text/javascript" src="./lib/js/jsonPath/jsonPath.js"></script>
+
+<style>
+	body { background-color:#fdfdfd; padding:5px; }
+	svg { display: block; } 
+</style>
+</head>
+<body>
+<div id="chart1" class='with-transitions' style="height:350px;width:100%;">
+	<svg></svg>
+</div>
+
+<script>
+
+/// Define variables to create dynamic content based on\
+// CAPC browser view parameters
+var id=getQueryVariable("id") // id={itemIdDa}
+var startTime=getQueryVariable("startTime"); // startTime={TimeStartUTC}
+var endTime=getQueryVariable("endTime"); // endTime={TimeEndUTC}
+var metric=getQueryVariable("metric");
+
+// Determine resolution to use to avoid getting massive quantities of as-polled data
+// Going to max as-polled to 7 days and switch to hourly
+var resolution;
+if (endTime - startTime > 604800) { resolution="HOUR"; resolutionNumber=3600;}
+else { resolution="RATE"; resolutionNumber=300};
+// Determine max rows needed in query based on time range and resolution
+var rows=(endTime - startTime) / resolutionNumber; 
+
+// Build URL using parameters
+var baseUrl="/pc/odata/api/portmfs?";
+var select="$select=Timestamp," + metric;
+var filter="$filter=((ID eq " + id + "))";
+var timeRange="starttime=" + startTime + "&endtime=" + endTime;
+var res="resolution=" + resolution;
+var maxRows="$top=" + rows;
+// Construct query
+var url=baseUrl + select + "&" + filter + "&" + timeRange + "&" + res + "&" + maxRows;
+console.log("OpenAPI URL: " + url)
+
+// Variable to hold the NVD3 formatted data set and the raw values array (for pctl calculations)
+var trendData=[];
+var valuesArray=[];
+var test=[];
+
+
+var spinTarget = document.getElementById('#chart1');
+var spinner = new Spinner({color:'#fff', lines: 12}).spin(spinTarget);
+// toggle block comments for debug
+/* url="portmfs.json";
+metric="im_BitsPerSecond"
+*/ 
+d3.json(url,function(error, data) {
+
+	valuesArray.push(data.d.results.map(function (VALUE) {
+		return Number(VALUE[metric]);
+	}));
+
+	var pctl90=d3.quantile(valuesArray[0].sort(d3.ascending), 0.90);
+	var pctl95=d3.quantile(valuesArray[0].sort(d3.ascending), 0.95);
+	var pctl98=d3.quantile(valuesArray[0].sort(d3.ascending), 0.98);
+
+	trendData.push({
+		key: "98th Percentile",
+		values: data.d.results.map(function (DATA_POINT) {
+			return ([new Date(DATA_POINT.Timestamp * 1000), pctl98])
+			}),
+		area: true,
+		color: "#f3be55"
+	},{ key: "95th Percentile",
+		values: data.d.results.map(function (DATA_POINT) {
+			return ([new Date(DATA_POINT.Timestamp * 1000), pctl95])
+			}),
+		area: true,
+		color: "#ffe2a6"
+	},{	key: "90th Percentile",
+		values: data.d.results.map(function (DATA_POINT) {
+			return ([new Date(DATA_POINT.Timestamp * 1000), pctl90])
+			}),
+		area: true,
+		color: "#ffeecc"
+	},{ key: getNiceMetricName(metric),
+		values: data.d.results.map(function (DATA_POINT) {
+			return ([new Date(DATA_POINT.Timestamp * 1000), Number(DATA_POINT[metric])])
+			}),
+		color: "#4b7da6"
+	});
+
+	nv.addGraph(function() {
+		//spinner.stop();
+		var chart = nv.models.lineChart();
+
+		chart.options({
+			margin: { top: 25, right: 30, bottom: 40, left: 70 },
+			x: function(d) { return d[0] },
+			y: function(d) { return d[1] },
+			height: 300,
+			useInteractiveGuideline: true,
+			xScale: d3.time.scale(),
+			forceY: [0,100]
+		});
+
+		chart.xAxis.options({
+			tickFormat: function(d) {return d3.time.format('%m/%d %I:%M %p')(new Date(d))},
+			rotateLabels: -45
+		});
+
+		// Formatting the values to simplify and scale units
+		// Here's a great resource for formatting: http://koaning.s3-website-us-west-2.amazonaws.com/html/d3format.html
+		chart.yAxis.options({
+			tickFormat: d3.format('.3s')
+		});
+
+		// Now the D3 magic as we bind our data set to the nvd3 svg
+		d3.select('#chart1 svg')
+		.datum(trendData)
+		.transition()
+		.duration(500)
+		.call(chart);
+		// Resize the chart when the browser window changes
+		nv.utils.windowResize(chart.update);
+
+		return chart;
+
+	}); // end nv.addGraph
+
+}); // end d3.json
+
+</script>
+</body>
+</html>
+
+

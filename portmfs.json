@@ -1,0 +1,1154 @@
+{
+  "d": {
+    "results": [
+      {
+        "Timestamp": "1462060200",
+        "im_BitsPerSecond": "5807122.93333333"
+      },
+      {
+        "Timestamp": "1462060500",
+        "im_BitsPerSecond": "5213864.42666667"
+      },
+      {
+        "Timestamp": "1462060800",
+        "im_BitsPerSecond": "4404478.93333333"
+      },
+      {
+        "Timestamp": "1462061100",
+        "im_BitsPerSecond": "5642414.29333333"
+      },
+      {
+        "Timestamp": "1462061400",
+        "im_BitsPerSecond": "4209898.77333333"
+      },
+      {
+        "Timestamp": "1462061700",
+        "im_BitsPerSecond": "5148507.94666667"
+      },
+      {
+        "Timestamp": "1462062000",
+        "im_BitsPerSecond": "5245817.12"
+      },
+      {
+        "Timestamp": "1462062300",
+        "im_BitsPerSecond": "4299589.70666667"
+      },
+      {
+        "Timestamp": "1462062600",
+        "im_BitsPerSecond": "5343899.57333333"
+      },
+      {
+        "Timestamp": "1462062900",
+        "im_BitsPerSecond": "5648323.68"
+      },
+      {
+        "Timestamp": "1462063200",
+        "im_BitsPerSecond": "4629302.93333333"
+      },
+      {
+        "Timestamp": "1462063500",
+        "im_BitsPerSecond": "4979341.01333333"
+      },
+      {
+        "Timestamp": "1462063800",
+        "im_BitsPerSecond": "4998147.94666667"
+      },
+      {
+        "Timestamp": "1462064100",
+        "im_BitsPerSecond": "4952877.65333333"
+      },
+      {
+        "Timestamp": "1462064400",
+        "im_BitsPerSecond": "5001384.26666667"
+      },
+      {
+        "Timestamp": "1462064700",
+        "im_BitsPerSecond": "5055217.92"
+      },
+      {
+        "Timestamp": "1462065000",
+        "im_BitsPerSecond": "5131533.97333333"
+      },
+      {
+        "Timestamp": "1462065300",
+        "im_BitsPerSecond": "4644176.64"
+      },
+      {
+        "Timestamp": "1462065600",
+        "im_BitsPerSecond": "5116478.88"
+      },
+      {
+        "Timestamp": "1462065900",
+        "im_BitsPerSecond": "5180708.85333333"
+      },
+      {
+        "Timestamp": "1462066200",
+        "im_BitsPerSecond": "4934777.17333333"
+      },
+      {
+        "Timestamp": "1462066500",
+        "im_BitsPerSecond": "5323116.48"
+      },
+      {
+        "Timestamp": "1462066800",
+        "im_BitsPerSecond": "4125821.28"
+      },
+      {
+        "Timestamp": "1462067100",
+        "im_BitsPerSecond": "5016114.77333333"
+      },
+      {
+        "Timestamp": "1462067400",
+        "im_BitsPerSecond": "5080487.94666667"
+      },
+      {
+        "Timestamp": "1462067700",
+        "im_BitsPerSecond": "5352224.26666667"
+      },
+      {
+        "Timestamp": "1462068000",
+        "im_BitsPerSecond": "4964257.28"
+      },
+      {
+        "Timestamp": "1462068300",
+        "im_BitsPerSecond": "5561229.44"
+      },
+      {
+        "Timestamp": "1462068600",
+        "im_BitsPerSecond": "4125420.32"
+      },
+      {
+        "Timestamp": "1462068900",
+        "im_BitsPerSecond": "5736888.10666667"
+      },
+      {
+        "Timestamp": "1462069200",
+        "im_BitsPerSecond": "4811968.85333333"
+      },
+      {
+        "Timestamp": "1462069500",
+        "im_BitsPerSecond": "5063447.14666667"
+      },
+      {
+        "Timestamp": "1462069800",
+        "im_BitsPerSecond": "4625799.30666667"
+      },
+      {
+        "Timestamp": "1462070100",
+        "im_BitsPerSecond": "5213445.38666667"
+      },
+      {
+        "Timestamp": "1462070400",
+        "im_BitsPerSecond": "5192699.46666667"
+      },
+      {
+        "Timestamp": "1462070700",
+        "im_BitsPerSecond": "4988763.57333333"
+      },
+      {
+        "Timestamp": "1462071000",
+        "im_BitsPerSecond": "4596347.84"
+      },
+      {
+        "Timestamp": "1462071300",
+        "im_BitsPerSecond": "4993842.4"
+      },
+      {
+        "Timestamp": "1462071600",
+        "im_BitsPerSecond": "5037852.53333333"
+      },
+      {
+        "Timestamp": "1462071900",
+        "im_BitsPerSecond": "4687843.09333333"
+      },
+      {
+        "Timestamp": "1462072200",
+        "im_BitsPerSecond": "5276843.78666667"
+      },
+      {
+        "Timestamp": "1462072500",
+        "im_BitsPerSecond": "5160469.92"
+      },
+      {
+        "Timestamp": "1462072800",
+        "im_BitsPerSecond": "5255363.78666667"
+      },
+      {
+        "Timestamp": "1462073100",
+        "im_BitsPerSecond": "5096717.28"
+      },
+      {
+        "Timestamp": "1462073400",
+        "im_BitsPerSecond": "4839348.69333333"
+      },
+      {
+        "Timestamp": "1462073700",
+        "im_BitsPerSecond": "4704998.45333333"
+      },
+      {
+        "Timestamp": "1462074000",
+        "im_BitsPerSecond": "5287249.65333333"
+      },
+      {
+        "Timestamp": "1462074300",
+        "im_BitsPerSecond": "5163744.42666667"
+      },
+      {
+        "Timestamp": "1462074600",
+        "im_BitsPerSecond": "4703537.81333333"
+      },
+      {
+        "Timestamp": "1462074900",
+        "im_BitsPerSecond": "4974080.8"
+      },
+      {
+        "Timestamp": "1462075200",
+        "im_BitsPerSecond": "4765190.18666667"
+      },
+      {
+        "Timestamp": "1462075500",
+        "im_BitsPerSecond": "4633417.54666667"
+      },
+      {
+        "Timestamp": "1462075800",
+        "im_BitsPerSecond": "5466182.82666667"
+      },
+      {
+        "Timestamp": "1462076100",
+        "im_BitsPerSecond": "5491596.05333333"
+      },
+      {
+        "Timestamp": "1462076400",
+        "im_BitsPerSecond": "4814441.44"
+      },
+      {
+        "Timestamp": "1462076700",
+        "im_BitsPerSecond": "4295436.90666667"
+      },
+      {
+        "Timestamp": "1462077000",
+        "im_BitsPerSecond": "5541343.73333333"
+      },
+      {
+        "Timestamp": "1462077300",
+        "im_BitsPerSecond": "4907044.10666667"
+      },
+      {
+        "Timestamp": "1462077600",
+        "im_BitsPerSecond": "5309369.28"
+      },
+      {
+        "Timestamp": "1462077900",
+        "im_BitsPerSecond": "4967808.64"
+      },
+      {
+        "Timestamp": "1462078200",
+        "im_BitsPerSecond": "5168985.54666667"
+      },
+      {
+        "Timestamp": "1462078500",
+        "im_BitsPerSecond": "4524938.77333333"
+      },
+      {
+        "Timestamp": "1462078800",
+        "im_BitsPerSecond": "5433418.66666667"
+      },
+      {
+        "Timestamp": "1462079100",
+        "im_BitsPerSecond": "4860924.16"
+      },
+      {
+        "Timestamp": "1462079400",
+        "im_BitsPerSecond": "5020744.90666667"
+      },
+      {
+        "Timestamp": "1462079700",
+        "im_BitsPerSecond": "4455754.08"
+      },
+      {
+        "Timestamp": "1462080000",
+        "im_BitsPerSecond": "5231544.85333333"
+      },
+      {
+        "Timestamp": "1462080300",
+        "im_BitsPerSecond": "4738278.13333333"
+      },
+      {
+        "Timestamp": "1462080600",
+        "im_BitsPerSecond": "5483500.48"
+      },
+      {
+        "Timestamp": "1462080900",
+        "im_BitsPerSecond": "5107896.42666667"
+      },
+      {
+        "Timestamp": "1462081200",
+        "im_BitsPerSecond": "4593302.45333333"
+      },
+      {
+        "Timestamp": "1462081500",
+        "im_BitsPerSecond": "4861802.45333333"
+      },
+      {
+        "Timestamp": "1462081800",
+        "im_BitsPerSecond": "5075170.45333333"
+      },
+      {
+        "Timestamp": "1462082100",
+        "im_BitsPerSecond": "5524407.94666667"
+      },
+      {
+        "Timestamp": "1462082400",
+        "im_BitsPerSecond": "4749724.58666667"
+      },
+      {
+        "Timestamp": "1462082700",
+        "im_BitsPerSecond": "4505473.12"
+      },
+      {
+        "Timestamp": "1462083000",
+        "im_BitsPerSecond": "5433008.16"
+      },
+      {
+        "Timestamp": "1462083300",
+        "im_BitsPerSecond": "5037002.88"
+      },
+      {
+        "Timestamp": "1462083600",
+        "im_BitsPerSecond": "4705972.21333333"
+      },
+      {
+        "Timestamp": "1462083900",
+        "im_BitsPerSecond": "5492303.52"
+      },
+      {
+        "Timestamp": "1462084200",
+        "im_BitsPerSecond": "4488441.86666667"
+      },
+      {
+        "Timestamp": "1462084500",
+        "im_BitsPerSecond": "5003580.0"
+      },
+      {
+        "Timestamp": "1462084800",
+        "im_BitsPerSecond": "5494574.61333333"
+      },
+      {
+        "Timestamp": "1462085100",
+        "im_BitsPerSecond": "4697217.92"
+      },
+      {
+        "Timestamp": "1462085400",
+        "im_BitsPerSecond": "5428597.6"
+      },
+      {
+        "Timestamp": "1462085700",
+        "im_BitsPerSecond": "4719872.16"
+      },
+      {
+        "Timestamp": "1462086000",
+        "im_BitsPerSecond": "5429447.25333333"
+      },
+      {
+        "Timestamp": "1462086300",
+        "im_BitsPerSecond": "5034415.73333333"
+      },
+      {
+        "Timestamp": "1462086600",
+        "im_BitsPerSecond": "4555077.6"
+      },
+      {
+        "Timestamp": "1462086900",
+        "im_BitsPerSecond": "4771261.86666667"
+      },
+      {
+        "Timestamp": "1462087200",
+        "im_BitsPerSecond": "5473247.36"
+      },
+      {
+        "Timestamp": "1462087500",
+        "im_BitsPerSecond": "4502590.02666667"
+      },
+      {
+        "Timestamp": "1462087800",
+        "im_BitsPerSecond": "5382897.70666667"
+      },
+      {
+        "Timestamp": "1462088100",
+        "im_BitsPerSecond": "4747423.84"
+      },
+      {
+        "Timestamp": "1462088400",
+        "im_BitsPerSecond": "5071867.30666667"
+      },
+      {
+        "Timestamp": "1462088700",
+        "im_BitsPerSecond": "4796407.78666667"
+      },
+      {
+        "Timestamp": "1462089000",
+        "im_BitsPerSecond": "5319488.74666667"
+      },
+      {
+        "Timestamp": "1462089300",
+        "im_BitsPerSecond": "4604873.01333333"
+      },
+      {
+        "Timestamp": "1462089600",
+        "im_BitsPerSecond": "5451862.82666667"
+      },
+      {
+        "Timestamp": "1462089900",
+        "im_BitsPerSecond": "4765514.77333333"
+      },
+      {
+        "Timestamp": "1462090200",
+        "im_BitsPerSecond": "5270056.10666667"
+      },
+      {
+        "Timestamp": "1462090500",
+        "im_BitsPerSecond": "4615364.8"
+      },
+      {
+        "Timestamp": "1462090800",
+        "im_BitsPerSecond": "5021585.01333333"
+      },
+      {
+        "Timestamp": "1462091100",
+        "im_BitsPerSecond": "5494374.13333333"
+      },
+      {
+        "Timestamp": "1462091400",
+        "im_BitsPerSecond": "4695833.65333333"
+      },
+      {
+        "Timestamp": "1462091700",
+        "im_BitsPerSecond": "5235630.82666667"
+      },
+      {
+        "Timestamp": "1462092000",
+        "im_BitsPerSecond": "4625236.05333333"
+      },
+      {
+        "Timestamp": "1462092300",
+        "im_BitsPerSecond": "5031036.21333333"
+      },
+      {
+        "Timestamp": "1462092600",
+        "im_BitsPerSecond": "4669475.30666667"
+      },
+      {
+        "Timestamp": "1462092900",
+        "im_BitsPerSecond": "5096106.29333333"
+      },
+      {
+        "Timestamp": "1462093200",
+        "im_BitsPerSecond": "5474793.92"
+      },
+      {
+        "Timestamp": "1462093500",
+        "im_BitsPerSecond": "4678859.68"
+      },
+      {
+        "Timestamp": "1462093800",
+        "im_BitsPerSecond": "4676654.4"
+      },
+      {
+        "Timestamp": "1462094100",
+        "im_BitsPerSecond": "5581516.10666667"
+      },
+      {
+        "Timestamp": "1462094400",
+        "im_BitsPerSecond": "4561473.86666667"
+      },
+      {
+        "Timestamp": "1462094700",
+        "im_BitsPerSecond": "4760063.62666667"
+      },
+      {
+        "Timestamp": "1462095000",
+        "im_BitsPerSecond": "5548761.49333333"
+      },
+      {
+        "Timestamp": "1462095300",
+        "im_BitsPerSecond": "4723881.76"
+      },
+      {
+        "Timestamp": "1462095600",
+        "im_BitsPerSecond": "5531758.88"
+      },
+      {
+        "Timestamp": "1462095900",
+        "im_BitsPerSecond": "4580309.44"
+      },
+      {
+        "Timestamp": "1462096200",
+        "im_BitsPerSecond": "5299927.62666667"
+      },
+      {
+        "Timestamp": "1462096500",
+        "im_BitsPerSecond": "5418649.97333333"
+      },
+      {
+        "Timestamp": "1462096800",
+        "im_BitsPerSecond": "4614648.8"
+      },
+      {
+        "Timestamp": "1462097100",
+        "im_BitsPerSecond": "5147171.41333333"
+      },
+      {
+        "Timestamp": "1462097400",
+        "im_BitsPerSecond": "5180565.65333333"
+      },
+      {
+        "Timestamp": "1462097700",
+        "im_BitsPerSecond": "4908753.97333333"
+      },
+      {
+        "Timestamp": "1462098000",
+        "im_BitsPerSecond": "4721199.14666667"
+      },
+      {
+        "Timestamp": "1462098300",
+        "im_BitsPerSecond": "4609990.02666667"
+      },
+      {
+        "Timestamp": "1462098600",
+        "im_BitsPerSecond": "5830264.05333333"
+      },
+      {
+        "Timestamp": "1462098900",
+        "im_BitsPerSecond": "4196342.50666667"
+      },
+      {
+        "Timestamp": "1462099200",
+        "im_BitsPerSecond": "5429046.29333333"
+      },
+      {
+        "Timestamp": "1462099500",
+        "im_BitsPerSecond": "4854862.02666667"
+      },
+      {
+        "Timestamp": "1462099800",
+        "im_BitsPerSecond": "4415686.72"
+      },
+      {
+        "Timestamp": "1462100100",
+        "im_BitsPerSecond": "5908565.81333333"
+      },
+      {
+        "Timestamp": "1462100400",
+        "im_BitsPerSecond": "4504718.93333333"
+      },
+      {
+        "Timestamp": "1462100700",
+        "im_BitsPerSecond": "5219764.26666667"
+      },
+      {
+        "Timestamp": "1462101000",
+        "im_BitsPerSecond": "4722335.2"
+      },
+      {
+        "Timestamp": "1462101300",
+        "im_BitsPerSecond": "5138016.16"
+      },
+      {
+        "Timestamp": "1462101600",
+        "im_BitsPerSecond": "5237301.49333333"
+      },
+      {
+        "Timestamp": "1462101900",
+        "im_BitsPerSecond": "4394388.10666667"
+      },
+      {
+        "Timestamp": "1462102200",
+        "im_BitsPerSecond": "5320911.2"
+      },
+      {
+        "Timestamp": "1462102500",
+        "im_BitsPerSecond": "5074578.56"
+      },
+      {
+        "Timestamp": "1462102800",
+        "im_BitsPerSecond": "4960486.34666667"
+      },
+      {
+        "Timestamp": "1462103100",
+        "im_BitsPerSecond": "4890471.09333333"
+      },
+      {
+        "Timestamp": "1462103400",
+        "im_BitsPerSecond": "5086244.58666667"
+      },
+      {
+        "Timestamp": "1462103700",
+        "im_BitsPerSecond": "4550189.70666667"
+      },
+      {
+        "Timestamp": "1462104000",
+        "im_BitsPerSecond": "5879171.62666667"
+      },
+      {
+        "Timestamp": "1462104300",
+        "im_BitsPerSecond": "4083014.02666667"
+      },
+      {
+        "Timestamp": "1462104600",
+        "im_BitsPerSecond": "5678080.64"
+      },
+      {
+        "Timestamp": "1462104900",
+        "im_BitsPerSecond": "5094006.02666667"
+      },
+      {
+        "Timestamp": "1462105200",
+        "im_BitsPerSecond": "4732072.8"
+      },
+      {
+        "Timestamp": "1462105500",
+        "im_BitsPerSecond": "5307899.09333333"
+      },
+      {
+        "Timestamp": "1462105800",
+        "im_BitsPerSecond": "4571583.78666667"
+      },
+      {
+        "Timestamp": "1462106100",
+        "im_BitsPerSecond": "5057642.77333333"
+      },
+      {
+        "Timestamp": "1462106400",
+        "im_BitsPerSecond": "5388530.24"
+      },
+      {
+        "Timestamp": "1462106700",
+        "im_BitsPerSecond": "5361608.64"
+      },
+      {
+        "Timestamp": "1462107000",
+        "im_BitsPerSecond": "3873588.8"
+      },
+      {
+        "Timestamp": "1462107300",
+        "im_BitsPerSecond": "5661078.02666667"
+      },
+      {
+        "Timestamp": "1462107600",
+        "im_BitsPerSecond": "4442579.68"
+      },
+      {
+        "Timestamp": "1462107900",
+        "im_BitsPerSecond": "5615082.18666667"
+      },
+      {
+        "Timestamp": "1462108200",
+        "im_BitsPerSecond": "4378321.06666667"
+      },
+      {
+        "Timestamp": "1462108500",
+        "im_BitsPerSecond": "5398917.01333333"
+      },
+      {
+        "Timestamp": "1462108800",
+        "im_BitsPerSecond": "5273741.12"
+      },
+      {
+        "Timestamp": "1462109100",
+        "im_BitsPerSecond": "4704110.61333333"
+      },
+      {
+        "Timestamp": "1462109400",
+        "im_BitsPerSecond": "5016095.68"
+      },
+      {
+        "Timestamp": "1462109700",
+        "im_BitsPerSecond": "4858804.8"
+      },
+      {
+        "Timestamp": "1462110000",
+        "im_BitsPerSecond": "5119075.57333333"
+      },
+      {
+        "Timestamp": "1462110300",
+        "im_BitsPerSecond": "5061738.29333333"
+      },
+      {
+        "Timestamp": "1462110600",
+        "im_BitsPerSecond": "4439782.50666667"
+      },
+      {
+        "Timestamp": "1462110900",
+        "im_BitsPerSecond": "5088593.06666667"
+      },
+      {
+        "Timestamp": "1462111200",
+        "im_BitsPerSecond": "5397944.26666667"
+      },
+      {
+        "Timestamp": "1462111500",
+        "im_BitsPerSecond": "5382974.08"
+      },
+      {
+        "Timestamp": "1462111800",
+        "im_BitsPerSecond": "4250166.61333333"
+      },
+      {
+        "Timestamp": "1462112100",
+        "im_BitsPerSecond": "5266772.05333333"
+      },
+      {
+        "Timestamp": "1462112400",
+        "im_BitsPerSecond": "5091237.49333333"
+      },
+      {
+        "Timestamp": "1462112700",
+        "im_BitsPerSecond": "5174675.36"
+      },
+      {
+        "Timestamp": "1462113000",
+        "im_BitsPerSecond": "5206809.44"
+      },
+      {
+        "Timestamp": "1462113300",
+        "im_BitsPerSecond": "4293279.36"
+      },
+      {
+        "Timestamp": "1462113600",
+        "im_BitsPerSecond": "5491681.97333333"
+      },
+      {
+        "Timestamp": "1462113900",
+        "im_BitsPerSecond": "4805868.53333333"
+      },
+      {
+        "Timestamp": "1462114200",
+        "im_BitsPerSecond": "5377055.14666667"
+      },
+      {
+        "Timestamp": "1462114500",
+        "im_BitsPerSecond": "4521740.64"
+      },
+      {
+        "Timestamp": "1462114800",
+        "im_BitsPerSecond": "5325808.64"
+      },
+      {
+        "Timestamp": "1462115100",
+        "im_BitsPerSecond": "4741418.98666667"
+      },
+      {
+        "Timestamp": "1462115400",
+        "im_BitsPerSecond": "5292758.08"
+      },
+      {
+        "Timestamp": "1462115700",
+        "im_BitsPerSecond": "4475983.46666667"
+      },
+      {
+        "Timestamp": "1462116000",
+        "im_BitsPerSecond": "5797719.46666667"
+      },
+      {
+        "Timestamp": "1462116300",
+        "im_BitsPerSecond": "4760044.53333333"
+      },
+      {
+        "Timestamp": "1462116600",
+        "im_BitsPerSecond": "4449166.88"
+      },
+      {
+        "Timestamp": "1462116900",
+        "im_BitsPerSecond": "5448254.18666667"
+      },
+      {
+        "Timestamp": "1462117200",
+        "im_BitsPerSecond": "5472397.70666667"
+      },
+      {
+        "Timestamp": "1462117500",
+        "im_BitsPerSecond": "4562409.44"
+      },
+      {
+        "Timestamp": "1462117800",
+        "im_BitsPerSecond": "5419738.29333333"
+      },
+      {
+        "Timestamp": "1462118100",
+        "im_BitsPerSecond": "4582657.92"
+      },
+      {
+        "Timestamp": "1462118400",
+        "im_BitsPerSecond": "4524050.93333333"
+      },
+      {
+        "Timestamp": "1462118700",
+        "im_BitsPerSecond": "5258581.01333333"
+      },
+      {
+        "Timestamp": "1462119000",
+        "im_BitsPerSecond": "5098244.74666667"
+      },
+      {
+        "Timestamp": "1462119300",
+        "im_BitsPerSecond": "5040010.08"
+      },
+      {
+        "Timestamp": "1462119600",
+        "im_BitsPerSecond": "4809333.97333333"
+      },
+      {
+        "Timestamp": "1462119900",
+        "im_BitsPerSecond": "5470975.25333333"
+      },
+      {
+        "Timestamp": "1462120200",
+        "im_BitsPerSecond": "5050301.38666667"
+      },
+      {
+        "Timestamp": "1462120500",
+        "im_BitsPerSecond": "4660081.38666667"
+      },
+      {
+        "Timestamp": "1462120800",
+        "im_BitsPerSecond": "5221224.90666667"
+      },
+      {
+        "Timestamp": "1462121100",
+        "im_BitsPerSecond": "4489386.98666667"
+      },
+      {
+        "Timestamp": "1462121400",
+        "im_BitsPerSecond": "5178694.50666667"
+      },
+      {
+        "Timestamp": "1462121700",
+        "im_BitsPerSecond": "5309693.86666667"
+      },
+      {
+        "Timestamp": "1462122000",
+        "im_BitsPerSecond": "4885516.37333333"
+      },
+      {
+        "Timestamp": "1462122300",
+        "im_BitsPerSecond": "4759719.94666667"
+      },
+      {
+        "Timestamp": "1462122600",
+        "im_BitsPerSecond": "5127992.16"
+      },
+      {
+        "Timestamp": "1462122900",
+        "im_BitsPerSecond": "5599645.22666667"
+      },
+      {
+        "Timestamp": "1462123200",
+        "im_BitsPerSecond": "4710048.64"
+      },
+      {
+        "Timestamp": "1462123500",
+        "im_BitsPerSecond": "4717351.84"
+      },
+      {
+        "Timestamp": "1462123800",
+        "im_BitsPerSecond": "4786316.96"
+      },
+      {
+        "Timestamp": "1462124100",
+        "im_BitsPerSecond": "5354859.14666667"
+      },
+      {
+        "Timestamp": "1462124400",
+        "im_BitsPerSecond": "4812092.96"
+      },
+      {
+        "Timestamp": "1462124700",
+        "im_BitsPerSecond": "4898423.46666667"
+      },
+      {
+        "Timestamp": "1462125000",
+        "im_BitsPerSecond": "4972277.49333333"
+      },
+      {
+        "Timestamp": "1462125300",
+        "im_BitsPerSecond": "5072726.50666667"
+      },
+      {
+        "Timestamp": "1462125600",
+        "im_BitsPerSecond": "5007837.81333333"
+      },
+      {
+        "Timestamp": "1462125900",
+        "im_BitsPerSecond": "4628682.4"
+      },
+      {
+        "Timestamp": "1462126200",
+        "im_BitsPerSecond": "5572026.72"
+      },
+      {
+        "Timestamp": "1462126500",
+        "im_BitsPerSecond": "4727509.49333333"
+      },
+      {
+        "Timestamp": "1462126800",
+        "im_BitsPerSecond": "5531195.62666667"
+      },
+      {
+        "Timestamp": "1462127100",
+        "im_BitsPerSecond": "5233387.36"
+      },
+      {
+        "Timestamp": "1462127400",
+        "im_BitsPerSecond": "4509979.14666667"
+      },
+      {
+        "Timestamp": "1462127700",
+        "im_BitsPerSecond": "5097872.42666667"
+      },
+      {
+        "Timestamp": "1462128000",
+        "im_BitsPerSecond": "4543802.98666667"
+      },
+      {
+        "Timestamp": "1462128300",
+        "im_BitsPerSecond": "5238933.97333333"
+      },
+      {
+        "Timestamp": "1462128600",
+        "im_BitsPerSecond": "5056812.21333333"
+      },
+      {
+        "Timestamp": "1462128900",
+        "im_BitsPerSecond": "4653828.32"
+      },
+      {
+        "Timestamp": "1462129200",
+        "im_BitsPerSecond": "5424015.2"
+      },
+      {
+        "Timestamp": "1462129500",
+        "im_BitsPerSecond": "4628940.16"
+      },
+      {
+        "Timestamp": "1462129800",
+        "im_BitsPerSecond": "5533954.61333333"
+      },
+      {
+        "Timestamp": "1462130100",
+        "im_BitsPerSecond": "4211769.92"
+      },
+      {
+        "Timestamp": "1462130400",
+        "im_BitsPerSecond": "5709966.50666667"
+      },
+      {
+        "Timestamp": "1462130700",
+        "im_BitsPerSecond": "4753963.30666667"
+      },
+      {
+        "Timestamp": "1462131000",
+        "im_BitsPerSecond": "5544207.73333333"
+      },
+      {
+        "Timestamp": "1462131300",
+        "im_BitsPerSecond": "4863568.58666667"
+      },
+      {
+        "Timestamp": "1462131600",
+        "im_BitsPerSecond": "4744187.52"
+      },
+      {
+        "Timestamp": "1462131900",
+        "im_BitsPerSecond": "4842728.21333333"
+      },
+      {
+        "Timestamp": "1462132200",
+        "im_BitsPerSecond": "5300299.94666667"
+      },
+      {
+        "Timestamp": "1462132500",
+        "im_BitsPerSecond": "4547268.42666667"
+      },
+      {
+        "Timestamp": "1462132800",
+        "im_BitsPerSecond": "4982080.90666667"
+      },
+      {
+        "Timestamp": "1462133100",
+        "im_BitsPerSecond": "5558947.78666667"
+      },
+      {
+        "Timestamp": "1462133400",
+        "im_BitsPerSecond": "4555965.44"
+      },
+      {
+        "Timestamp": "1462133700",
+        "im_BitsPerSecond": "4793171.46666667"
+      },
+      {
+        "Timestamp": "1462134000",
+        "im_BitsPerSecond": "5452769.76"
+      },
+      {
+        "Timestamp": "1462134300",
+        "im_BitsPerSecond": "4735290.02666667"
+      },
+      {
+        "Timestamp": "1462134600",
+        "im_BitsPerSecond": "5370754.34666667"
+      },
+      {
+        "Timestamp": "1462134900",
+        "im_BitsPerSecond": "4805629.86666667"
+      },
+      {
+        "Timestamp": "1462135200",
+        "im_BitsPerSecond": "5301149.6"
+      },
+      {
+        "Timestamp": "1462135500",
+        "im_BitsPerSecond": "4528919.73333333"
+      },
+      {
+        "Timestamp": "1462135800",
+        "im_BitsPerSecond": "5035360.85333333"
+      },
+      {
+        "Timestamp": "1462136100",
+        "im_BitsPerSecond": "5003637.28"
+      },
+      {
+        "Timestamp": "1462136400",
+        "im_BitsPerSecond": "5360157.54666667"
+      },
+      {
+        "Timestamp": "1462136700",
+        "im_BitsPerSecond": "4838651.78666667"
+      },
+      {
+        "Timestamp": "1462137000",
+        "im_BitsPerSecond": "4458169.38666667"
+      },
+      {
+        "Timestamp": "1462137300",
+        "im_BitsPerSecond": "5261836.42666667"
+      },
+      {
+        "Timestamp": "1462137600",
+        "im_BitsPerSecond": "5151906.56"
+      },
+      {
+        "Timestamp": "1462137900",
+        "im_BitsPerSecond": "4859024.37333333"
+      },
+      {
+        "Timestamp": "1462138200",
+        "im_BitsPerSecond": "5056564.0"
+      },
+      {
+        "Timestamp": "1462138500",
+        "im_BitsPerSecond": "4710459.14666667"
+      },
+      {
+        "Timestamp": "1462138800",
+        "im_BitsPerSecond": "4981432.74666667"
+      },
+      {
+        "Timestamp": "1462139100",
+        "im_BitsPerSecond": "5603731.2"
+      },
+      {
+        "Timestamp": "1462139400",
+        "im_BitsPerSecond": "5000171.84"
+      },
+      {
+        "Timestamp": "1462139700",
+        "im_BitsPerSecond": "4526179.84"
+      },
+      {
+        "Timestamp": "1462140000",
+        "im_BitsPerSecond": "5094158.77333333"
+      },
+      {
+        "Timestamp": "1462140300",
+        "im_BitsPerSecond": "5239888.64"
+      },
+      {
+        "Timestamp": "1462140600",
+        "im_BitsPerSecond": "5455662.4"
+      },
+      {
+        "Timestamp": "1462140900",
+        "im_BitsPerSecond": "4920648.10666667"
+      },
+      {
+        "Timestamp": "1462141200",
+        "im_BitsPerSecond": "4381738.77333333"
+      },
+      {
+        "Timestamp": "1462141500",
+        "im_BitsPerSecond": "4790622.50666667"
+      },
+      {
+        "Timestamp": "1462141800",
+        "im_BitsPerSecond": "5492292.96"
+      },
+      {
+        "Timestamp": "1462142100",
+        "im_BitsPerSecond": "4928151.78666667"
+      },
+      {
+        "Timestamp": "1462142400",
+        "im_BitsPerSecond": "5337684.69333333"
+      },
+      {
+        "Timestamp": "1462142700",
+        "im_BitsPerSecond": "4704425.65333333"
+      },
+      {
+        "Timestamp": "1462143000",
+        "im_BitsPerSecond": "5108373.76"
+      },
+      {
+        "Timestamp": "1462143300",
+        "im_BitsPerSecond": "4678592.37333333"
+      },
+      {
+        "Timestamp": "1462143600",
+        "im_BitsPerSecond": "5444998.77333333"
+      },
+      {
+        "Timestamp": "1462143900",
+        "im_BitsPerSecond": "4482542.02666667"
+      },
+      {
+        "Timestamp": "1462144200",
+        "im_BitsPerSecond": "5681192.85333333"
+      },
+      {
+        "Timestamp": "1462144500",
+        "im_BitsPerSecond": "4454197.97333333"
+      },
+      {
+        "Timestamp": "1462144800",
+        "im_BitsPerSecond": "4952553.06666667"
+      },
+      {
+        "Timestamp": "1462145100",
+        "im_BitsPerSecond": "4790097.44"
+      },
+      {
+        "Timestamp": "1462145400",
+        "im_BitsPerSecond": "5323813.38666667"
+      },
+      {
+        "Timestamp": "1462145700",
+        "im_BitsPerSecond": "4641608.58666667"
+      },
+      {
+        "Timestamp": "1462146000",
+        "im_BitsPerSecond": "5611416.26666667"
+      }
+    ]
+  }
+}
