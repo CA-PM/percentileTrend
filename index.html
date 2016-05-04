@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <title>percentileTrend</title>
-<link rel="stylesheet" href="./lib/css/ca/CA_dashboard.css" />
 <link rel="stylesheet" href="./lib/css/nvd3/nv.d3.css" />
 <script type="text/javascript" src="./lib/js/ca/nvd3Trend.js"></script>
 <script type="text/javascript" src="./lib/js/ca/caHelperFunctions.js"></script>
@@ -11,7 +10,6 @@
 <script type="text/javascript" src="./lib/js/spin.js"></script>
 <script type="text/javascript" src="./lib/js/d3/d3.js"></script>
 <script type="text/javascript" src="./lib/js/nvd3/nv.d3.js"></script>
-<script type="text/javascript" src="./lib/js/jsonPath/jsonPath.js"></script>
 
 <style>
 	body { background-color:#fdfdfd; padding:5px; }
@@ -57,8 +55,8 @@ var valuesArray=[];
 var test=[];
 
 
-var spinTarget = document.getElementById('#chart1');
-var spinner = new Spinner({color:'#fff', lines: 12}).spin(spinTarget);
+var spinTarget = document.getElementById('chart1');
+var spinner = new Spinner({color:'#000000', lines: 12}).spin(spinTarget);
 // toggle block comments for debug
 /* url="portmfs.json";
 metric="im_BitsPerSecond"
@@ -100,7 +98,7 @@ d3.json(url,function(error, data) {
 	});
 
 	nv.addGraph(function() {
-		//spinner.stop();
+		spinner.stop();
 		var chart = nv.models.lineChart();
 
 		chart.options({
