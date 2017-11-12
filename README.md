@@ -1,39 +1,33 @@
-<<<<<<< HEAD
-# percentileTrends
-An interactive trend view of a metric of an interface with percentile data shown under the trend.
+# Interface Utilization Avg vs Percentile
+An interactive trend view of utilization of an interface with percentile data shown within the trend.
 
 ![Illustration of the percentileTrends app](percentileTrends_example.png)
 
 Based on the NVD3 library.
 
-
 #### Install and Configure
+##### CAPC 3.0 and later:
+1. Download Application ZIP file from the GitHub repository
+2. Launch CAPC and access the Administration -> App Installer interface 
+3. Select the file downloaded in step 1
+   3a. If updating from a previous version of the App, please select the option to update existing apps
+4. Add an App View to the CAPC Dashboard or context page
+5. Select the CPU Utilization Distribution by hour and save the view & dashboard
 
-1. Download the folder containing the app (e.g., click Download ZIP above). Unzip the download if need be and make sure the unzipped folder is named percentileTrends.
-2. Copy the folder to the webapps/pc/apps/user directory of your PC installation.  This is normally:  
-        /opt/CA/PerformanceCenter/PC/webapps/pc/apps/user  
-There is no need to start or restart PC.
-3. In PC, open a context page for an interface (Inventory -> Interfaces) and edit one of the tabs of the context page.
-4. Add a browser view to the page. Configure the browser view with:  
-   * an appropriate title,  
-   * a height of 400,  
-   * the URL as described below.  
-5. Save your modified context page and see the app work.
+##### CAPC 2.8.x
+1. Download Application ZIP file from the GitHub repository
+2. Extract the ZIP file 
+3. Launch CAPC and navigate to the desired Dashboard or Context page
+4. Add a Browser View to the CAPC Dashboard or context page
+5. Update the Browser View Name, URL, and Size based on the values in the appConfig.properties file
+6. Save the view and Dashboard
 
-#### CAPC Browser View URL
 
-The URL used to run the app is:
+#### Parameters
 
-/pc/apps/user/percentileTrends/index.html?id={ItemIdDA}&startTime={TimeStartUTC}&endTime={TimeEndUTC}&metric=im_UtilizationIn
+1. metric: the OpenAPI name of the metric to display (im_Utilization default).  Must be part of the interface (portmfs) metric family.
 
-Parameters:  
-id: is the ID of the interface for the selected context page  
-startTime: is the start time selected in the context page's time picker  
-endTime: is the end time selected in the context page's time picker
-metric: the OpenAPI name of the metric to display.  Must be part of the interface (portmfs) metric family.
 
-#### Modifying the App
->>>>>>> origin/master
 
 ===================================================================================
 
@@ -54,41 +48,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
-===================================================================================
-=======
-# percentileTrends
-An interactive trend view of a metric of an interface with percentile data shown under the trend.
-
-![Illustration of the percentileTrends app](percentileTrends_example.png)
-
-Based on the NVD3 library.
-
-
-#### Install and Configure
-
-1. Download the folder containing the app (e.g., click Download ZIP above). Unzip the download if need be and make sure the unzipped folder is named percentileTrends.
-2. Copy the folder to the webapps/pc/apps/user directory of your PC installation.  This is normally:  
-        /opt/CA/PerformanceCenter/PC/webapps/pc/apps/user  
-There is no need to start or restart PC.
-3. In PC, open a context page for an interface (Inventory -> Interfaces) and edit one of the tabs of the context page.
-4. Add a browser view to the page. Configure the browser view with:  
-   * an appropriate title,  
-   * a height of 400,  
-   * the URL as described below.  
-5. Save your modified context page and see the app work.
-
-#### CAPC Browser View URL
-
-The URL used to run the app is:
-
-/pc/apps/user/percentileTrends/index.html?id={ItemIdDA}&startTime={TimeStartUTC}&endTime={TimeEndUTC}&metric=im_UtilizationIn
-
-Parameters:  
-id: is the ID of the interface for the selected context page  
-startTime: is the start time selected in the context page's time picker  
-endTime: is the end time selected in the context page's time picker
-metric: the OpenAPI name of the metric to display.  Must be part of the interface (portmfs) metric family.
-
-#### Modifying the App
->>>>>>> origin/master
